@@ -1,0 +1,37 @@
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/OG CORTEZ 45TH ANNIVERSARY MENS DT.jpg');
+    background-size: cover;
+    min-height: 250px;
+    background-position: center;
+}
+@media (min-width:500px) {
+   .hero{
+       min-height: 500px;
+   }
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-product-details{
+    text-align: center;
+
+}
+.main-product-details h2{
+   color: #fff;
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.main-product-details h2 span{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.main-product-details p{
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
